@@ -63,7 +63,7 @@ Feature: Default
 	# # User should be able to add and remove field.
 	# # User should be able to search by selecting Date,
 	# # *{color:#de350b}User should be able to search by selecting one or more Type,{color}*
-	@AZUL-751
+	@AZUL-751@smoke
 	Scenario: User should be able to search by selecting one or more Type,
 		When User click on selecting one or more type
 		Then the user should see following option "Date: Yesterday" "Type: Posts"

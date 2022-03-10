@@ -29,7 +29,7 @@ public class LoginStepDefs {
     public void the_user_should_be_able_to_login() {
         BrowserUtils.waitFor(3);
         String actualTitle=Driver.get().getTitle();
-        Assert.assertEquals("Portal",actualTitle);
+        Assert.assertEquals("(1) Portal",actualTitle);
     }
 
 

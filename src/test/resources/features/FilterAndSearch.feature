@@ -34,7 +34,7 @@ Feature: As a user, I should be able to use "Filter and search" functionality on
   Scenario: User should be able to search by selecting Date,
     When User click on selecting date
     Then the user should see following option "Date: Yesterday"
-  @AZUL-751
+  @AZUL-751@smoke
     Scenario: User should be able to search by selecting one or more Type,
       When User click on selecting one or more type
       Then the user should see following option "Date: Yesterday" "Type: Posts"
